@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Contato - Barbearia Alura</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <div class="caixa_cabecalho">
+                <h1><img src="img/logo.png"></h1>
+
+                <nav class="nav_cabecalho">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="produtos.html">Produtos</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <form class="form-main1">
+                <label for="nome">Nome e Sobrenome<input class="input-form-main1 input-padrao" type="text" id="nome"></label>
+                <label for="email">E-mail<input class="input-form-main1 input-padrao" type="text" id="email"></label>
+                <label for="telefone">Telefone<input class="input-form-main1 input-padrao" type="text" id="telefone"></label>
+                <div class="campo_selecao">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea class="input-padrao" cols="40" rows="3" id="mensagem"></textarea>
+
+                    <p>Como gostaria de receber nosso contato?</p>
+                    <label for="contato-email"><input id="contato-email" type="radio" name="contato">E-mail</label>
+                    <label for="contato-whatsapp"><input id="contato-whatsapp" type="radio" name="contato">WhatsApp</label>
+                    <label for="contato-telefone"><input id="contato-telefone" type="radio" name="contato">Telefone</label>
+
+                    <label id="label-checkbox"><input type="checkbox">Gostaria de receber novidades por e-mail?</label>
+                </div>
+                <input class="input-submit" type="submit" value="Enviar">
+            </form>
+        </main>
+        <footer>
+            <img src="img/logo-branco.png">
+            <p>&copy; Copyright Barbearia Alura - 2021</p>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,158 @@
+.banner {
+    width: 100%;
+}
+.principal {
+    background-color:#cccccc;
+    padding: 20px;
+}
+body p {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 25px;
+}
+.tituloprincipal {
+    padding-left: 20px;
+    font-weight: bold;
+    font-size: 40px;
+    padding: 20px;
+}
+
+.titulosecundario {
+    padding: 10px;
+    font-weight: bold;
+    font-size: 25px;
+}
+.titulocenter {
+    text-align: center;
+}
+#missao {
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+}
+.listabeneficios {
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+}
+.beneficios {
+    width: 940px;
+    margin: 0 auto;
+}
+.itens {
+    line-height: 25px;
+}
+.itens:before {
+    content: "٭ ";  
+}
+.imagembeneficios {
+    width: 50%;
+}
+/**/
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+header {
+    background-color: #bbbbbb;
+}
+.caixa_cabecalho {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.nav_cabecalho li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+.nav_cabecalho a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+.nav_cabecalho a:hover {
+    color: #c78c19;
+    text-decoration: underline;
+}
+.nav_cabecalho ul {
+    position: absolute;
+    top: 120px;
+    right: 0;
+}
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    padding: 20px 20px;
+    margin: 0 1.5%;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+.produtos li:hover {
+    border-color: #c78c19;
+}
+.produtos li:hover h2 {
+    font-size: 30px;
+}
+.produtos li:active {
+    border-color: green;
+}
+.produtos h2 {
+    font-size: 25px;
+    font-weight: bold;
+}
+.produtos p {
+    font-size: 20px;
+    font-weight: bold;
+}
+.produtos figcaption {
+    padding: 0 0 20px 0;
+    font-weight: bold;
+}
+footer {
+    text-align: center;
+    background-image: url("../img/bg.jpg");
+    padding: 20px;
+}
+footer p {
+    color: white;
+}
+/**/
+.form-main1 {
+    width: 940px;
+    margin: 40px auto;
+}
+.input-padrao {
+    padding: 5px;
+    width: 40%;
+    margin: 10px 0 0 0;
+}
+.form-main1 label, .input-padrao {
+    display: block;
+}
+.form-main1 label, .campo_selecao p {
+    font-weight: bold;
+    font-size: 18px;
+    margin: 20px 0;
+}
+#label-checkbox {
+    margin-top: 40px;
+}
+.campo_selecao p {
+    text-align: left;
+}
+.input-submit {
+    padding: 5px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 10px 0 0 0;
+}
