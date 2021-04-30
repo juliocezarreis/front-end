@@ -43,7 +43,7 @@ body p {
     line-height: 25px;
 }
 .itens:before {
-    content: "٭ ";  
+    content: "٭ ";
 }
 .imagembeneficios {
     width: 50%;
@@ -143,6 +143,9 @@ footer p {
     font-weight: bold;
     font-size: 18px;
     margin: 20px 0;
+}
+.select-horario select {
+    padding: 10px;
 }
 #label-checkbox {
     margin-top: 40px;
