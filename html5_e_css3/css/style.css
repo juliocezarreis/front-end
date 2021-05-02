@@ -52,8 +52,12 @@ body p {
 body {
     font-family: 'Montserrat', sans-serif;
 }
+main {
+    width: 940px;
+    margin: 0 auto;
+}
 header {
-    background-color: #bbbbbb;
+    background-color: #848484;
 }
 .caixa_cabecalho {
     position: relative;
@@ -118,14 +122,6 @@ header {
     padding: 0 0 20px 0;
     font-weight: bold;
 }
-footer {
-    text-align: center;
-    background-image: url("../img/bg.jpg");
-    padding: 20px;
-}
-footer p {
-    color: white;
-}
 /**/
 .form-main1 {
     width: 940px;
@@ -139,7 +135,7 @@ footer p {
 .form-main1 label, .input-padrao {
     display: block;
 }
-.form-main1 label, .campo_selecao p {
+.form-main1 label, .campo_selecao legend {
     font-weight: bold;
     font-size: 18px;
     margin: 20px 0;
@@ -150,12 +146,43 @@ footer p {
 #label-checkbox {
     margin-top: 40px;
 }
-.campo_selecao p {
+.campo_selecao legend {
     text-align: left;
 }
 .input-submit {
-    padding: 5px 20px;
-    font-size: 16px;
+    width: 30%;
+    padding: 10px 0;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    border: none;
     border-radius: 5px;
-    margin: 10px 0 0 0;
+    background-color:orange;
+    transition: 0.5s all;
+}
+.input-submit:hover {
+    cursor: pointer;
+    background: darkorange;
+    transform: scale(1.1);
+}
+.horario  {
+    margin: 0 0 40px 0;
+}
+.horario th {
+    background-color: #555555;
+    font-weight: bold;
+    color: #ffffff;
+}
+.horario th, td {
+    border: 1px solid grey;
+    padding: 8px 20px;
+}
+/**/
+footer {
+    text-align: center;
+    background-image: url("../img/bg.jpg");
+    padding: 20px;
+}
+footer p {
+    color: white;
 }
