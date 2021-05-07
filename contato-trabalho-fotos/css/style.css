@@ -1,0 +1,35 @@
+body {
+font-family: 'Montserrat', sans-serif;
+}
+header {
+background-color: #f3adb6;
+}
+.caixa-header {
+width: 940px;
+margin: 0 auto;
+padding: 50px 0;
+position: relative;
+}
+.caixa-header .foto-logo {
+width: 20%;
+}
+.menu-nav-header ul {
+position: absolute;
+top: 135px;
+right: 0;
+}
+.menu-nav-header ul li {
+display: inline-block;
+margin: 0 0 0 20px;
+}
+.menu-nav-header ul li a {
+font-size: 24px;
+text-decoration: none;
+text-transform: uppercase;
+color: #444;
+font-weight: bold;
+}
+.menu-nav-header ul a:hover{
+color: #bbb;
+text-decoration: underline;
+}
