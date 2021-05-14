@@ -1,0 +1,128 @@
+body {
+  background-color: #071019;
+}
+
+.caixa-foto,
+.caixa-descricao,
+.atrativo {
+  width: 940px;
+  margin: 0 auto;
+}
+
+.caixa-foto figure {
+  margin: 3em 0;
+}
+
+.caixa-foto figure img {
+  width: 200px;
+  border: 1px solid none;
+  border-radius: 100px;
+}
+
+.caixa-foto figure figcaption {
+  color: #fff;
+  font-family: monospace;
+  font-size: 18px;
+}
+
+.caixa-foto figure h1,
+figcaption {
+  text-align: center;
+}
+
+.caixa-descricao h2,
+p {
+  color: #fff;
+  font-family: sans-serif;
+  text-align: center;
+  line-height: 2em;
+}
+
+.caixa-descricao h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.caixa-descricao abbr {
+  text-decoration: underline;
+}
+
+.caixa-contato {
+  width: 300px;
+  margin: 3em auto 1em auto;
+}
+
+.caixa-contato .lista-contato .item-contato {
+  margin: 0 0 2em 0;
+  padding: 0.2em 0;
+  border: 1px solid none;
+  border-radius: 5px;
+  transition: 0.3s all;
+  text-align: center;
+}
+
+.caixa-contato .lista-contato .whats {
+  border: 1px solid green;
+}
+
+.caixa-contato .lista-contato .whats:hover {
+  background-color: green;
+}
+
+.caixa-contato .lista-contato .telegram {
+  border: 1px solid cadetblue;
+}
+
+.caixa-contato .lista-contato .telegram:hover {
+  background-color: cadetblue;
+}
+
+.caixa-contato .lista-contato .git {
+  border: 1px solid white;
+}
+
+.caixa-contato .lista-contato .git:hover {
+  background-color: white;
+}
+
+.caixa-contato .lista-contato .youtube {
+  border: 1px solid darkred;
+}
+
+.caixa-contato .lista-contato .youtube:hover {
+  background-color: darkred;
+}
+
+.caixa-contato .lista-contato .insta {
+  border: 1px solid #FE2E64;
+}
+
+.caixa-contato .lista-contato .insta:hover {
+  background-color: #FE2E64;
+}
+
+.caixa-contato .lista-contato .item-contato img {
+  width: 30px;
+}
+
+.atrativo p {
+  color: #0174DF;
+}
+
+.atrativo a {
+  text-decoration: none;
+}
+
+@media screen and ( max-width: 940px ) {
+  .caixa-foto, .atrativo {
+    width: 100%;
+  }
+
+  .caixa-descricao {
+    width: 90%;
+  }
+
+  .atrativo {
+    margin-bottom: 3em;
+  }
+}
