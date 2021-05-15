@@ -19,26 +19,29 @@ header {
 
 .menu-nav-header ul {
   position: absolute;
-  top: 135px;
+  top: 125px;
   right: 0;
 }
 
 .menu-nav-header ul li {
   display: inline-block;
-  margin: 0 0 0 20px;
+  margin: 0 0 0 10px;
+  padding: 5px;
+  background-color: #aaa;
+  border: 1px solid none;
+  border-radius: 10px;
 }
 
 .menu-nav-header ul li a {
-  font-size: 24px;
+  font-size: 18px;
   text-decoration: none;
   text-transform: uppercase;
-  color: #444;
+  color: #fff;
   font-weight: bold;
 }
 
 .menu-nav-header ul a:hover {
   color: #bbb;
-  text-decoration: underline;
 }
 
 .ensaios {
@@ -79,6 +82,14 @@ header {
   bottom: 30px;
 }
 
+.ensaios fieldset .titulo-secao {
+  border: 1px solid none;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: rgb(162, 77, 162);
+  color: #fff;
+}
+
 .descricao {
   width: 940px;
   margin: 3em auto;
@@ -106,6 +117,10 @@ header {
 
 .contato {
   margin: 4em 0 4em 0;
+}
+
+.contato a {
+text-decoration: none;
 }
 
 .caixa-contato {
@@ -160,8 +175,8 @@ header {
 }
 
 .desenvolvedor a:hover p {
- color: #fff;
- background-color: #071019;
+  color: #fff;
+  background-color: #071019;
 }
 
 .desenvolvedor p {
@@ -188,13 +203,14 @@ header {
   font-size: 1em;
 }
 
-@media screen and (max-width: 940px) {
+@media screen and (max-width: 1024px) {
 
   .caixa-header,
   .ensaios,
   .descricao,
-  .caixa-contato, .desenvolvedor {
-    width: 100%;
+  .caixa-contato,
+  .desenvolvedor {
+    width: 90%;
   }
 
   .caixa-header h1 {
@@ -219,7 +235,7 @@ header {
   }
 
   .ensaios {
-    width: 95%;
+    width: 90%;
     margin-left: 1em;
   }
 
