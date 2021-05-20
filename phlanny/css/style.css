@@ -1,0 +1,172 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #071019;
+}
+
+header {
+  background-color: #000;
+}
+
+.caixa-header {
+  width: 940px;
+  margin: 0 auto;
+  padding: 50px 0;
+  position: relative;
+}
+
+.caixa-header .foto-logo {
+  width: 20%;
+}
+
+.menu-nav-header ul {
+  position: absolute;
+  top: 125px;
+  right: 0;
+}
+
+.menu-nav-header ul li {
+  display: inline-block;
+  margin: 0 0 0 10px;
+  padding: 5px;
+  background-color: #bdbdbd;
+  border: 1px solid none;
+  border-radius: 10px;
+}
+
+.menu-nav-header ul li a {
+  font-size: 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  font-weight: bold;
+}
+
+.menu-nav-header ul li:hover {
+  background-color: #eee;
+}
+
+.fundo1 {
+  padding: 2em 0 20em 0;
+  background-image: url("../img/banner1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.descricao {
+  width: 940px;
+  margin: 0 auto 1em auto;
+  padding-top: 1em;
+}
+
+.descricao figure {
+  display: inline;
+}
+
+.descricao h2 {
+  text-align: center;
+}
+
+.descricao figure img {
+  width: 100px;
+  border: 1px solid none;
+  border-radius: 100px;
+}
+
+.descricao .texto p {
+  line-height: 2em;
+  margin: 1em 0;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+}
+
+.descricao .texto p strong {
+  font-weight: bold;
+}
+
+.contato h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.contato {
+  margin: 4em 0 4em 0;
+}
+
+.contato a {
+  text-decoration: none;
+}
+
+.caixa-contato {
+  width: 940px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.caixa-contato .lista-contato .item-contato img {
+  width: 60px;
+}
+
+.caixa-contato .lista-contato .item-contato {
+  width: 40%;
+  margin: 2em auto;
+  border: 1px solid none;
+  border-radius: 20px;
+  transition: 0.3s all;
+}
+
+.caixa-contato .lista-contato .whats {
+  background-color: rgb(83, 189, 143);
+}
+
+.caixa-contato .lista-contato .insta {
+  background-color: #c75775;
+}
+
+.caixa-contato .lista-contato .telegram {
+  background-color: #5ab4d0;
+}
+
+.desenvolvedor {
+  width: 940px;
+  margin: 1em auto 10em auto;
+  text-align: center;
+}
+
+.desenvolvedor a {
+  text-decoration: none;
+}
+
+.desenvolvedor a:hover p {
+  color: #fff;
+  background-color: #000;
+}
+
+.desenvolvedor p {
+  font-weight: bold;
+  padding: 0.5em;
+  border: 1px solid none;
+  display: inline;
+  color: #000;
+  transition: 0.3s all;
+  background-color: #fff;
+}
+
+.rodape {
+  padding: 2em 0;
+  background: #000;
+  text-align: center;
+}
+
+.rodape img {
+  width: 100px;
+}
+
+.rodape p {
+  font-weight: bold;
+  font-size: 1em;
+  color: #fff;
+}
