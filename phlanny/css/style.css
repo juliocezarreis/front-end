@@ -1,172 +1,253 @@
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    border: 2px solid #232943;
+    box-shadow: inset 0 0 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(45deg, #06dee1, #79ff6c);
+    border-radius: 5px;
+}
+
 body {
-  font-family: 'Montserrat', sans-serif;
-  background-color: #071019;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #071019;
 }
 
 header {
-  background-color: #000;
+    background-color: #000;
+    position: fixed;
+    width: 100%;
 }
 
 .caixa-header {
-  width: 940px;
-  margin: 0 auto;
-  padding: 50px 0;
-  position: relative;
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+    position: relative;
 }
 
 .caixa-header .foto-logo {
-  width: 20%;
+    width: 100px;
 }
 
 .menu-nav-header ul {
-  position: absolute;
-  top: 125px;
-  right: 0;
+    position: absolute;
+    top: 80px;
+    right: 0;
 }
 
 .menu-nav-header ul li {
-  display: inline-block;
-  margin: 0 0 0 10px;
-  padding: 5px;
-  background-color: #bdbdbd;
-  border: 1px solid none;
-  border-radius: 10px;
+    display: inline-block;
+    margin: 0 0 0 10px;
+    padding: 5px;
+    background-color: #bdbdbd;
+    border: 1px solid none;
+    border-radius: 10px;
 }
 
 .menu-nav-header ul li a {
-  font-size: 18px;
-  text-decoration: none;
-  text-transform: uppercase;
-  color: #000;
-  font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    font-family: 'Play', sans-serif;
 }
 
 .menu-nav-header ul li:hover {
-  background-color: #eee;
+    background-color: #eee;
 }
 
 .fundo1 {
-  padding: 2em 0 20em 0;
-  background-image: url("../img/banner1.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+    padding: 2em 0 0 0;
+    background-image: url("../img/banner1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .descricao {
-  width: 940px;
-  margin: 0 auto 1em auto;
-  padding-top: 1em;
+    width: 940px;
+    margin: 1em auto;
+    padding-top: 14em;
 }
 
 .descricao figure {
-  display: inline;
+    display: inline;
 }
 
 .descricao h2 {
-  text-align: center;
+    text-align: center;
 }
 
 .descricao figure img {
-  width: 100px;
-  border: 1px solid none;
-  border-radius: 100px;
+    width: 100px;
+    border: 1px solid none;
+    border-radius: 100px;
 }
 
 .descricao .texto p {
-  line-height: 2em;
-  margin: 1em 0;
-  color: #fff;
-  font-size: 18px;
-  text-align: center;
+    line-height: 2em;
+    margin: 1em 0;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
 }
 
 .descricao .texto p strong {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 .contato h2 {
-  font-size: 24px;
-  font-weight: bold;
-  color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
 }
 
 .contato {
-  margin: 4em 0 4em 0;
+    margin: 4em 0;
+    padding-top: 14em;
 }
 
 .contato a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .caixa-contato {
-  width: 940px;
-  margin: 0 auto;
-  text-align: center;
+    width: 940px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .caixa-contato .lista-contato .item-contato img {
-  width: 60px;
+    width: 60px;
 }
 
 .caixa-contato .lista-contato .item-contato {
-  width: 40%;
-  margin: 2em auto;
-  border: 1px solid none;
-  border-radius: 20px;
-  transition: 0.3s all;
+    width: 40%;
+    margin: 2em auto;
+    border: 1px solid none;
+    border-radius: 20px;
+    transition: 0.3s all;
 }
 
 .caixa-contato .lista-contato .whats {
-  background-color: rgb(83, 189, 143);
+    background-color: rgb(83, 189, 143);
 }
 
 .caixa-contato .lista-contato .insta {
-  background-color: #c75775;
+    background-color: #c75775;
 }
 
 .caixa-contato .lista-contato .telegram {
-  background-color: #5ab4d0;
+    background-color: #5ab4d0;
 }
 
 .desenvolvedor {
-  width: 940px;
-  margin: 1em auto 10em auto;
-  text-align: center;
+    width: 940px;
+    margin: 1em auto 10em auto;
+    text-align: center;
 }
 
 .desenvolvedor a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .desenvolvedor a:hover p {
-  color: #fff;
-  background-color: #000;
+    color: #fff;
+    background-color: #000;
 }
 
 .desenvolvedor p {
-  font-weight: bold;
-  padding: 0.5em;
-  border: 1px solid none;
-  display: inline;
-  color: #000;
-  transition: 0.3s all;
-  background-color: #fff;
+    font-weight: bold;
+    padding: 0.5em;
+    border: 1px solid none;
+    display: inline;
+    color: #000;
+    transition: 0.3s all;
+    background-color: #fff;
+}
+
+.fotos-ensaios {
+    width: 100%;
+    display: block;
+}
+
+.ensaios {
+    background-color: #000;
+    padding: 20em 0 10em 0;
+}
+
+.ensaios .caixa-ensaios {
+    text-align: center;
+}
+
+.ensaios .caixa-ensaios h2 {
+    color: #fff;
+    padding: 0 1em 5em 1em;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.ensaios .caixa-ensaios iframe {
+    width: 80%;
+    height: 100vh;
+    margin: 0 auto;
 }
 
 .rodape {
-  padding: 2em 0;
-  background: #000;
-  text-align: center;
+    padding: 2em 0;
+    background: #000;
+    text-align: center;
 }
 
 .rodape img {
-  width: 100px;
+    width: 100px;
 }
 
 .rodape p {
-  font-weight: bold;
-  font-size: 1em;
-  color: #fff;
+    font-weight: bold;
+    font-size: 1em;
+    color: #fff;
+}
+
+@media screen and (max-width: 1024px) {
+    .caixa-header,
+    .caixa-contato,
+    .desenvolvedor {
+        width: 100%;
+    }
+    .descricao,
+    .contato {
+        padding-top: 8em;
+    }
+    .caixa-header {
+        padding: 25px 0;
+    }
+    .caixa-header .foto-logo {
+        width: 70px;
+        margin: auto 20px;
+    }
+    .menu-nav-header ul {
+        position: absolute;
+        top: 0;
+        right: 20px;
+    }
+    .menu-nav-header ul li {
+        display: block;
+        margin: 10px 0;
+    }
+    .menu-nav-header ul li:hover a {
+        color: #000;
+    }
+    .menu-nav-header ul li a {
+        font-size: 1em;
+    }
+    .descricao {
+        width: 90%;
+    }
 }
