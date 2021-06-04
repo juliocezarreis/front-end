@@ -1,0 +1,73 @@
+:root {
+    --laranja: #f95738;
+    --branco: #fff;
+    --preto: #000;
+    --preto-opacity: #00000040;
+    --fonte-principal: ubuntu;
+}
+
+body {
+    background-color: var(--laranja);
+    font-family: var(--fonte-principal);
+}
+
+a {
+    text-decoration: none;
+}
+
+.cabecalho {
+    text-align: center;
+}
+
+.cabecalho img {
+    width: 4rem;
+    margin-top: 1rem;
+}
+
+.container {
+    width: 70vw;
+    margin: 2rem auto;
+}
+
+.caixa-lista {
+    background-color: var(--branco);
+    padding: 2rem;
+    border-radius: 6px;
+}
+
+.caixa-lista legend {
+    transform: translateY(100%);
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+    color: var(--preto);
+}
+
+.caixa-lista .lista-nav ul a {
+    text-decoration: underline;
+    color: var(--preto-opacity);
+}
+
+.caixa-lista .lista-nav ul .lista-item {
+    color: var(--preto);
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+.caixa-lista,
+.lista-nav ul a:hover {
+    color: var(--preto);
+}
+
+@media screen and (min-width: 768px) {
+    .cabecalho img {
+        width: 5rem;
+    }
+    .caixa-lista legend {
+        font-size: 2rem;
+    }
+    .caixa-lista .lista-nav ul .lista-item {
+        font-size: 1.5rem;
+    }
+}
