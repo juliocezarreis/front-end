@@ -1,0 +1,36 @@
+.sobre__banner {
+    position: relative;
+}
+
+.sobre__banner--img {
+    width: 100%;
+}
+
+.sobre__banner--titulo {
+    color: #fdfdfd;
+    font-family: pacifico, 'cursive';
+    font-size: 4rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-shadow: 0 5px 5px #00000080;
+}
+
+.sobre__descricao {
+    text-align: center;
+    padding: 2rem;
+}
+
+.sobre__descricao--titulo {
+    font-family: pacifico, 'cursive';
+    font-size: 3rem;
+    color: darkred;
+}
+
+.sobre__descricao--texto {
+    color: #595959;
+    font-size: 1.75rem;
+    font-weight: 100;
+}

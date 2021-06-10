@@ -1,0 +1,38 @@
+.descricao {
+    text-align: center;
+    background-color: var(--bg-escuro);
+}
+
+.descricao__imagem {
+    width: 100px;
+    margin: 2rem 0;
+    border-radius: 50px;
+}
+
+.descricao__texto {
+    background-color: var(--branco);
+    padding: 1rem;
+    width: 80vw;
+    margin: 0 auto;
+    border-radius: 6px 6px 0 0;
+    opacity: 0.9;
+}
+
+.descricao__texto p {
+    margin: 0 1rem 1rem 1rem;
+}
+
+.descricao__texto strong {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1024px) {
+    .descricao__texto {
+        width: 100vw;
+        border-radius: 0;
+    }
+    .descricao__texto p {
+        margin: 2rem 1rem;
+        text-align: justify;
+    }
+}

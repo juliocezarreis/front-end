@@ -1,0 +1,70 @@
+.ensaios {
+    background-color: var(--bg-escuro);
+    margin-top: 50vh;
+    padding-bottom: 10vh;
+}
+
+.ensaios__chamada {
+    color: var(--branco);
+    font-size: 1.25rem;
+    padding: 2rem 0 4rem 0;
+    text-align: center;
+}
+
+.ensaios__chamada strong {
+    font-weight: bold;
+    font-size: 1.75rem;
+}
+
+@keyframes animacao-fotos {
+    0% {
+        background-image: url("../img/casal1.jpeg")
+    }
+    10% {
+        background-image: url("../img/feminino3.jpg")
+    }
+    20% {
+        background-image: url("../img/casal2.jpeg")
+    }
+    30% {
+        background-image: url("../img/crianca1.jpeg")
+    }
+    40% {
+        background-image: url("../img/feminino6.jpg")
+    }
+    50% {
+        background-image: url("../img/casal3.jpeg")
+    }
+    60% {
+        background-image: url("../img/casal4.jpeg")
+    }
+    70% {
+        background-image: url("../img/feminino7.jpg")
+    }
+    80% {
+        background-image: url("../img/bg2.jpg")
+    }
+}
+
+.ensaios__fotos {
+    width: 80vw;
+    height: 120vh;
+    margin: 0 auto;
+    background-image: url("../img/casal1.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    animation-name: animacao-fotos;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+@media screen and (max-width: 1024px) {
+    .ensaios {
+        margin-top: 46vh;
+    }
+    .ensaios__fotos {
+        width: 100vw;
+        height: 60vh;
+        background-size: cover;
+    }
+}

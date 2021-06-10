@@ -1,0 +1,29 @@
+:root {
+    --branco: #fdfdfd;
+    --bg-escuro: #00000070;
+    --cinza12: #1C1C1C;
+    --cinza-escuro: rgba(26, 26, 26, .85);
+    --fonte-padrao: ubuntu;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../img/bg1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: var(--fonte-padrao);
+}
+
+a {
+    text-decoration: none;
+    color: var(--branco);
+}
+
+p {
+    line-height: 1.5rem;
+}
