@@ -1,13 +1,13 @@
 .ensaios {
-    background-color: var(--bg-escuro);
+    background-color: var(--preto);
     margin-top: 50vh;
-    padding-bottom: 10vh;
+    padding-bottom: 1vh;
 }
 
 .ensaios__chamada {
     color: var(--branco);
     font-size: 1.25rem;
-    padding: 2rem 0 4rem 0;
+    padding: 1rem 0 3rem 0;
     text-align: center;
 }
 
@@ -21,40 +21,44 @@
         background-image: url("../img/casal1.jpeg")
     }
     10% {
-        background-image: url("../img/feminino3.jpg")
+        background-image: url("../img/feminino7.jpeg")
     }
     20% {
         background-image: url("../img/casal2.jpeg")
     }
     30% {
-        background-image: url("../img/crianca1.jpeg")
+        background-image: url("../img/bg2.jpeg")
     }
     40% {
-        background-image: url("../img/feminino6.jpg")
+        background-image: url("../img/feminino2.jpeg")
     }
     50% {
         background-image: url("../img/casal3.jpeg")
     }
     60% {
-        background-image: url("../img/casal4.jpeg")
+        background-image: url("../img/feminino1.jpeg")
     }
     70% {
-        background-image: url("../img/feminino7.jpg")
+        background-image: url("../img/gestante1.jpeg")
+    }
+    75% {
+        background-image: url("../img/casal4.jpeg")
     }
     80% {
-        background-image: url("../img/bg2.jpg")
+        background-image: url("../img/casal2.jpeg")
     }
 }
 
 .ensaios__fotos {
     width: 80vw;
-    height: 120vh;
+    height: 100vh;
     margin: 0 auto;
     background-image: url("../img/casal1.jpeg");
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
+    background-size: cover;
     animation-name: animacao-fotos;
-    animation-duration: 20s;
+    animation-duration: 60s;
     animation-iteration-count: infinite;
 }
 

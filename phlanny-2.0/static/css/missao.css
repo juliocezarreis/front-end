@@ -1,18 +1,47 @@
+@keyframes cores {
+    16% {
+        background-color: #d87d86;
+    }
+    32% {
+        background-color: #ddb887;
+    }
+    48% {
+        background-color: #cece81;
+    }
+    64% {
+        background-color: #7cc88a;
+    }
+    80% {
+        background-color: #7e7ed8;
+    }
+    100% {
+        background-color: #ca73c4;
+    }
+}
+
 .missao {
     padding-top: 6rem;
     text-align: center;
 }
 
 .missao__texto {
+    animation-name: cores;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
     display: inline-block;
     color: var(--branco);
     background-color: var(--bg-escuro);
     padding: 1rem 2rem;
     font-weight: 500;
+    width: 60vw;
 }
 
 @media screen and (max-width: 1024px) {
     .missao {
         padding-top: 9rem;
+    }
+    .missao__texto {
+        width: 90vw;
+        border-radius: 8px;
     }
 }
